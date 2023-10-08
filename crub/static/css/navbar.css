@@ -1,0 +1,36 @@
+
+.navbar  {
+    width: 100%;
+    background-color: rgba(4, 105, 21, 0.747);
+    justify-content: space-between;
+    align-items:center;
+    padding: 5px 10px;
+    display: flex;
+    word-spacing: 0.5em;
+    margin: auto;}
+
+.navbar ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 20px;
+    color: aliceblue;
+    font-size: 19px;
+    text-decoration:none;
+}
+
+.logo img {
+    width:50px;
+    height: 100%;
+}
+.logo li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 20px;
+    color: aliceblue;
+    font-size: 19px;
+    text-decoration:none;
+}
+a {
+    border-radius: 1px;
+    border-color: black;
+}

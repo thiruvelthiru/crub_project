@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(119, 166, 253);
+  }
+  h3{color: chocolate;}
+  .con col{
+    color: black;
+  }
+  th{
+    background-color:darkgrey;
+    color: antiquewhite;
+  }
+  .con{
+    width: 1000px;
+
+    background-color:rgb(61, 60, 60);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px black;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,10%);
+  }
+  button{
+    border-radius: 5px;
+    box-shadow: 0 1px 5px black;
+    font-size: 14px;
+    margin: 5px 0;
+    padding:5px;
+  }
+  .update button{
+    border: 1px solid green;
+   }
+.update button{
+    background-color:rgb(90, 245, 90);
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+.update :hover{
+    background-color:  rgb(23, 245, 208);}
+    .delete button{
+      border: 1px solid red;
+     }
+  .delete button{
+      background-color:rgba(252, 5, 5, 0.753);
+      cursor: pointer;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .delete :hover{
+      background-color:rgb(109, 253, 246);}
+
+    

@@ -1,0 +1,32 @@
+.home {
+  background-color: grey;
+}
+    .container{
+        width: 400px;
+    }
+    .container{
+        width: 500px;
+      background-color:rgb(170, 248, 248);
+      text-align: center;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px black;
+      margin: 0;
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%,20%);
+  }
+  .container label{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .her {
+    border-radius: 5px;
+    background-color: blue;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+    

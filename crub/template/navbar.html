@@ -1,0 +1,33 @@
+<html>
+    <head>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/navbar.css'%}">
+        <style>i{
+            font-size: 23px;
+            color:yellow;
+        }
+            .bar a {
+            
+            border: 2px solid greenyellow;
+            border-radius: 5px;
+            padding: 5px;
+        }
+    .hove:hover{
+            background-color:rgb(106, 224, 253);
+            text-decoration: none;}
+    </style>
+    </head>
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo"><a href="$"><li>Logo</li></a><a href="#"><img src="{% static 'image/loogo.jpg'%}"></a>
+            </div>
+        <ul>
+            <div class="bar">
+            <a href="{% url 'home'%}" class="hove"><li><i><b>Home</b></i></li></a>
+               <a href="{% url 'add'%}" class="hove"><li><i><b>Register</b></i></li></a></div>
+        </ul>
+    </div>
+    </div>
+</html>
